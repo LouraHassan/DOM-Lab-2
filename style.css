@@ -1,0 +1,16 @@
+.range{
+    width: 100%;
+    height: 300px;
+    border: 1px solid;
+
+}
+
+#square{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(235, 148, 162);
+    position: relative;
+  
+}
+
+
