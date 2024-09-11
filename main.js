@@ -12,12 +12,12 @@ function randomColor() {
   return color;
 }
 
-console.log();
 
 setInterval(() => {
   square.style.top = randomPosition(0, 50) + "vw";
   square.style.left = randomPosition(0, 100) + "vw";
   square.style.width = randomPosition(20, 400) + "px";
   square.style.height = randomPosition(20, 400) + "px";
-  square.style.backgroundColor = randomColor();
+    square.style.backgroundColor = randomColor();
+    square.style.opacity = Math.random(0, 1);
 }, 2000);
